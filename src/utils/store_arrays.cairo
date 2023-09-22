@@ -78,7 +78,7 @@ impl StoreContractAddressArray of Store<Array<ContractAddress>> {
     }
 
     fn size() -> u8 {
-        1
+        255
     }
 }
 
